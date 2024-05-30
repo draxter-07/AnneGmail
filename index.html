@@ -21,6 +21,8 @@
             margin: 0px;
             padding: 0px;
             width: 100vw;
+            animation: 5s ease infinite reverse BackAnimation;
+            background: rgb(255, 0, 0);
             display: flex;
             flex-direction: column;
             justify-content: flex-start;
@@ -29,9 +31,7 @@
         }
         .title{
             box-sizing: border-box;
-            animation: 5s ease infinite reverse BackAnimation;
-            background: rgb(255, 0, 0);
-            padding: 30px 0px;
+            padding: 70px 0px;
             width: 100%;
             display: flex;
             flex-direction: column;
@@ -65,6 +65,23 @@
             font-size: 100px;
             color: rgb(240, 240, 0);
         }
+        .flagTitle{
+            width: 100%;
+            text-align: center;
+            margin: 0px 0px 20px 0px;
+        }
+        .flagsDiv{
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            width: 80vw;
+            padding: 40px;
+            border-radius: 15px;
+            background: rgb(255, 255, 255);
+            font-size: 60px;
+        }
     </style>
 </head>
 
@@ -77,4 +94,14 @@
         <span class="nameSpan">Anne Fronza</span>
     </div>
 
+    <div class="flagsDiv" style="margin: 0px 0px 30px 0px;">
+        <div class="flagTitle" style="color: rgb(255, 100, 100);">Red flags</div>
+        <span>1. Loira</span>
+        <span>2. Twitter</span>
+    </div>
+
+    <div class="flagsDiv">
+        <div class="flagTitle" style="color: rgb(100, 255, 100);">Green flags</div>
+        <span>1.</span>
+    </div>
 </body>
